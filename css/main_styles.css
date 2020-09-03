@@ -688,7 +688,7 @@ section
 }
 .hero_slide_content h1
 {
-	font-size: 72px;
+	font-size: 100px;
 	font-weight: 400;
 	color: #FFFFFF;
 }
@@ -1358,7 +1358,7 @@ input:last-of-type
 .footer
 {
 	width: 100%;
-	padding-top: 86px;
+	padding-top: 20px;
 	background: #1a1a1a;
 }
 .footer .section_title h1
@@ -1415,9 +1415,13 @@ input:last-of-type
 
 .footer_content 
 {
-	padding-top: 80px;
-	padding-bottom: 83px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	border-bottom: solid 2px #4d4e4e;
+	display: flexbox;
+
+	
+	
 }
 .footer_content .logo_container
 {
@@ -1438,15 +1442,21 @@ input:last-of-type
 	font-size: 18px;
 	font-weight: 500;
 	color: #FFFFFF;
-	padding-top: 15px;
+	padding-top: 10px;
+	margin-left: 100px;
+
 }
 .footer_column_content
 {
-	margin-top: 32px;
+	margin-top: 15px;
+	margin-left: 100px;
+	
 }
 .footer_list_item
 {
 	margin-bottom: 11px;
+
+
 }
 .footer_list_item a
 {
@@ -1468,6 +1478,7 @@ input:last-of-type
 	font-weight: 400;
 	color: #a5a5a5;
 	margin-bottom: 22px;
+	
 }
 .footer_contact_item:last-child
 {
@@ -1480,6 +1491,7 @@ input:last-of-type
 	height: 24px;
 	vertical-align: middle;
 	margin-right: 10px;
+	justify-content: center;
 }
 .footer_contact_icon img
 {
