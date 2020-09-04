@@ -9,9 +9,12 @@
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/proyectos_responsive.css">
+
 <link rel="stylesheet" type="text/css" href="styles/misestilos.css">
-<link rel="stylesheet" type="text/css" href="styles/jquery-ui.css">    
+<link rel="stylesheet" type="text/css" href="styles/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    
 </head>
 <body>
 
@@ -37,7 +40,7 @@
 						<li class="main_nav_item"><a href="proyectos.html">Proyectos</a></li>
 						<li class="main_nav_item"><a href="contacto.html">Contacto</a></li>
                         			<li class="main_nav_item"><a href="galeria.html">Galeria</a></li>
-                        			<li class="main_nav_item"><a href="referencias.html">Referencias</a></li>
+                        				<li class="main_nav_item"><a href="#">Referencias</a></li>
                         
 						<!--<li class="main_nav_item"><a href="news.html">news</a></li>-->
 						
@@ -68,40 +71,127 @@
 				<div class="col">
 					<div class="section_title text-center">
                         <h1></h1>
-						<h1>Mis Proyectos</h1>
+						<h1>Referencias</h1>
 					</div>
 				</div>
 			</div>
 
-<div class="proyectos">
-            <div id="proyectos">
-  <ul>
-    <li><a href="#tabs-1">Proyecto 1</a></li>
-    <li><a href="#tabs-2">Proyecto 2</a></li>
-    <li><a href="#tabs-3">Proyecto 3</a></li>
-    <li><a href="#tabs-4">Proyecto 4</a></li>
-  </ul>
-  <div id="tabs-1">
-    <p class="titulo-proyecto">Migración de Dominio a Call Center</p>  
-    <p class="parrafo-proyecto">Soy socio de una empresa la cual fue contratada por un Call Center Internacional acá en Guatemala, lidere el cambio de dominio el cuál demanda tener a cargo personal y organizar las tareas para asignarlas a dicho personal, se realizó la migración de dominio en jornada nocturna, fueron aproximadamente 3,500 equipos de cómputo. El proyecto duro un aproximado de 2 meses.</p>
-  
-  </div>
-  <div id="tabs-2">
-    <p class="titulo-proyecto"> Configuración de una Red Lan</p>  
-    <p class="parrafo-proyecto">Este proyecto formo parte del curso Redes de la facultad de Ingeniería en Sistemas de la Información de la Universidad Mariano Gálvez, se configuro por medio de Windows Server los servicios: Active Directory, FTP, Firewall, Servidor DHCP, Servidor IIS, Servidor DNS.
-		Se crearon dos diferentes vlan´s con la ayuda del software Putty, donde cada vlan tenía un segmento diferente en dos switch administrables. Cada host podía tener comunicación con diferente segmento, pero cada interfaz de los switch, solo podían reconocer una mac-addres, por lo que necesitaba apoyo para cambiar la configuración si trasladaban un host a una diferente interfaz. Todos los host tenían acceso a los servicios configurados en Windows Server.
- </p>  </div>
-  <div id="tabs-3">
-    <p class="titulo-proyecto"> Creación de Base de Datos Homogenea</p>  
-    <p class="parrafo-proyecto">Fue para el curso de Base de Datos II de la Facultad de Ingeniería en Sistemas de la Información de la Universidad Mariano Gálvez. En esa base de datos todos los sitios tienen idéntico software de sistemas Gestores de bases de datos, son conscientes de la existencia de los demás sitios y acuerdan cooperar en el procesamiento de las solicitudes de los usuarios. En estos sistemas los sitios renuncian a una parte de su autonomía en cuanto a su derecho de modificar los esquemas o el software gestor de base de datos. Ese software también debe cooperar con los demás sitios en el intercambio de la información sobre las transacciones para hacer posible el procesamiento de las transacciones entre varios sitios. Se utilizo el software sqldeveloper para dicho proyecto.
-  </div>
-    <div id="tabs-4">
-    <p class="titulo-proyecto"> Desarrollo de un feed similar al de Netflix</p>    
-    <p class="parrafo-proyecto">Este proyecto fue para el curso de Programación II de la Facultad de Ingeniería de la información de la Universidad mariano Gálvez, se desarrollo el proyecto con el lengua Java, con la plataforma de desarrollo Eclipse neon.3. </p>
-  </div>            
-                
-</div>
-            </div>            
+	<div class="container mb-3 mt-3">
+		<table class="table table-striped table-bordered" style="width: 100%" id="referencias">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Telefono</th>
+					<th>Correo</th>
+					<th>Parentesco</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Maria Hernandez</td>
+					<td>4561-4562</td>
+					<td>maryh@gmail.com</td>
+					<td>Esposa</td>
+				</tr>
+				<tr>
+					<td>Ana Monterroso</td>
+					<td>4566-4513</td>
+					<td>amonterroso@hotmail.com</td>
+					<td>Madre</td>
+				</tr>
+				<tr>
+					<td>Gabriela Camey</td>
+					<td>4565-4562</td>
+					<td>gabyCM@gmail.com</td>
+					<td>Hermana</td>
+				</tr>
+				<tr>
+					<td>Jorge Camey</td>
+					<td>4563-4562</td>
+					<td>Jorge56@yahoo.com</td>
+					<td>Hermano</td>	
+				</tr>
+				<tr>
+					<td>Andres Camey</td>
+					<td>4563-8562</td>
+					<td>aandresCS@hotmail.com</td>
+					<td>Tio</td>	
+				</tr>
+				<tr>
+					<td>Angel Patzan</td>
+					<td>5695-6232</td>
+					<td>angelpatzan55@gmail.com</td>
+					<td>Amigo</td>
+									
+				</tr>
+				<tr>
+					<td>Carlos Jimenez</td>
+					<td>4536-5689</td>
+					<td>charlieJM@miumg.edu.gt</td>
+					<td>Amigo</td>									
+				</tr>
+				<tr>
+					<td>Raul Navas</td>
+					<td>4912-4653</td>
+					<td>rauln2@gmail.com</td>
+					<td>Amigo</td>	
+				</tr>
+				<tr>
+					<td>Cristian de la Rosa</td>
+					<td>5748-0350</td>
+					<td>Cris2025@gmail.com</td>
+					<td>Amigo</td>				
+				</tr>
+				<tr>
+					<td>Gustavo Lucas</td>
+					<td>4565-4562</td>
+					<td>tavo2021@yahoo.com</td>
+					<td>Amigo</td>		
+				</tr>
+				<tr>
+					<td>Abner Carcamo</td>
+					<td>4236-5686</td>
+					<td>aacarcamoc@hotmail.com.gt</td>
+					<td>Compañero Laboral</td>
+				</tr>
+				<tr>
+					<td>Guillermo Alvarado</td>
+					<td>5698-5236</td>
+					<td>guille911@yahoo.com</td>
+					<td>Compañero Laboral</td>
+				</tr>
+				<tr>
+					<td>Erwin Velasquez</td>
+					<td>4623-5698</td>
+					<td>erwinvelasco@gmail.com</td>
+					<td>Compañero Laboral</td>
+				</tr>
+				<tr>
+					<td>Kevin Rodriguez</td>
+					<td>4120-4531</td>
+					<td>kevo2343@gmail.com</td>	
+					<td>Compañero Laboral</td>
+				</tr>
+				<tr>
+					<td>Byron Veliz</td>
+					<td>4023-5683</td>
+					<td>bveliz212@gmail.com</td>
+					<td>Compañero Laboral</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<!--
+				<tr>
+					<th>Nombre</th>
+					<th>Telefono</th>
+					<th>Correo</th>
+					<th>Parentesco</th>
+				</tr> -->	
+			</tfoot>
+
+		</table>	
+	</div> 
+           
             
 
 		</div>		
@@ -143,7 +233,7 @@
 						<div class="footer_column_title">Menu</div>
 						<div class="footer_column_content">
 							<ul>
-								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="index.html#">Inicio</a></li>
 								<li class="footer_list_item"><a href="proyectos.html">Proyectos</a></li>
 								<li class="footer_list_item"><a href="contacto.html">Contacto</a></li>
 								<li class="footer_list_item"><a href="galeria.html">Galeria</a></li>
@@ -214,13 +304,54 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/proyectos_custom.js"></script>
-<-- Jquery UI Widgets tab --> </-->    
-<script>
-  $( function() {
-    $( "#proyectos" ).tabs();
-  } );
-</script>    
+<script src="js/courses_custom.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Implementación datatable -->    
+	<script>
+var idioma={
+    "sProcessing":     "Procesando...",
+    "sLengthMenu":     "Mostrar _MENU_ registros",
+    "sZeroRecords":    "No se encontraron resultados",
+    "sEmptyTable":     "Ningún dato disponible en esta tabla",
+    "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+    "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+    "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+    "sInfoPostFix":    "",
+    "sSearch":         "Buscar:",
+    "sUrl":            "",
+    "sInfoThousands":  ",",
+    "sLoadingRecords": "Cargando...",
+    "oPaginate": {
+        "sFirst":    "Primero",
+        "sLast":     "Último",
+        "sNext":     "Siguiente",
+        "sPrevious": "Anterior"
+    },
+    "oAria": {
+        "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+    },
+    "buttons": {
+        "copy": "Copiar",
+        "colvis": "Visibilidad"
+    }
+}
+		$('#referencias').DataTable(
+			
+			{"language":idioma,
+
+            // Paginación
+             "lengthMenu": [[5, 10, 15], [5, 10, 15]],
+            "pageLength": 5}
+			);
+
+
+	</script>
 
 </body>
 </html>
